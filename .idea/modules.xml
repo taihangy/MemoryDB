@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MemDB.iml" filepath="$PROJECT_DIR$/.idea/modules/MemDB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MemDB_main.iml" filepath="$PROJECT_DIR$/.idea/modules/MemDB_main.iml" group="MemDB" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MemDB_test.iml" filepath="$PROJECT_DIR$/.idea/modules/MemDB_test.iml" group="MemDB" />
+    </modules>
+  </component>
+</project>
