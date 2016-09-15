@@ -1,12 +1,60 @@
+# Compiled source #
+###################
+*.com
 *.class
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
+*.dll
+*.exe
+*.o
+*.so
+*.cdi_javac
+*.lck
+*.jdb
 *.war
 *.ear
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Gradle #
+######################
+.gradle
+build
+gradle.properties
+
+# IDEs #
+######################
+workspace.xml
+.idea/
+*.iml
+*.ipr
+/.nb-gradle/profiles/private/
+# Eclipse IDE
+*.prefs
+.classpath
+.project
+.settings/
+#NetBeans
+/.nb-gradle/
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
