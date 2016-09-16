@@ -33,12 +33,16 @@ public class MemoryDatabase<K extends Comparable<K>, V> {
         cacheMap.set(key, value);
     }
 
+    public void remove(K key) {
+        cacheMap.remove(key);
+    }
+
     public class CleanUpTimerTask extends TimerTask {
         @Override
         public void run() {
-            System.out.println("Start clean up task...");
+//            System.out.println("Start clean up task...");
             long cleanUpCount = cleanUp();
-            System.out.println("End clean up task, cleaned " + cleanUpCount +" items...");
+//            System.out.println("End clean up task, cleaned " + cleanUpCount +" items...");
         }
 
         private long cleanUp() {
@@ -60,6 +64,7 @@ public class MemoryDatabase<K extends Comparable<K>, V> {
         }
     }
 
-
-
+    public String toString() {
+        return cacheMap.toString();
+    }
 }

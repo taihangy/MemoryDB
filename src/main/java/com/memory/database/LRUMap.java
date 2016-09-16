@@ -49,7 +49,7 @@ public class LRUMap<K extends Comparable<K>, V> {
         setNode(node, key, value);
     }
 
-    private synchronized  void setNode(Node<K, V> node, K key, V value) {
+    private synchronized void setNode(Node<K, V> node, K key, V value) {
         if (node != null) {
             node.value = value;
         } else {

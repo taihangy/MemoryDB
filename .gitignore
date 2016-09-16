@@ -43,18 +43,8 @@ gradle.properties
 
 # IDEs #
 ######################
-workspace.xml
 .idea/
-*.iml
-*.ipr
-/.nb-gradle/profiles/private/
-# Eclipse IDE
-*.prefs
-.classpath
-.project
-.settings/
-#NetBeans
-/.nb-gradle/
+
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
