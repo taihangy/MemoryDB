@@ -86,7 +86,7 @@ public class MemoryDatabaseTest {
     @Test
     public void testMultiAndRollBack() {
         System.out.println("=========================================");
-        System.out.println("Multi & Exec test start...");
+        System.out.println("Multi & Rollback test start...");
 
         mdb.multi();
         mdb.set("k5", "v5");

@@ -138,6 +138,9 @@ public class MemoryDatabase<K extends Comparable<K>, V> implements MemoryDBTrans
             taskQueue.add(task);
             taskQueue.notifyAll();
         }
+        synchronized (resultQueue) {
+            resultQueue.clear();
+        }
         state = MemoryDatabaseStates.NORMAL;
     }
 
