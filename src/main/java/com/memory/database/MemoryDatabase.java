@@ -1,6 +1,7 @@
 package com.memory.database;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 /**
  * Created by yetaihang on 9/14/16.
@@ -32,10 +33,8 @@ public class MemoryDatabase<K extends Comparable<K>, V> implements MemoryDBTrans
     }
 
     public V get(K key) {
-        int id = -1;
         Task<K, V> task = new Task<K, V>(new Node<K, V>(key, null), "get", state);
         synchronized (taskQueue) {
-            id = taskQueue.size();
             taskQueue.add(task);
             taskQueue.notifyAll();
         }
@@ -49,18 +48,16 @@ public class MemoryDatabase<K extends Comparable<K>, V> implements MemoryDBTrans
                 }
             }
             if (state.compareTo(MemoryDatabaseStates.NORMAL) == 0) {
-                value = resultQueue.get(id);
-                resultQueue.remove(id);
+                value = resultQueue.get(resultQueue.size() - 1);
+                resultQueue.clear();
             }
         }
         return value;
     }
 
     public void set(K key, V value) {
-        int id = -1;
         Task<K, V> task = new Task<K, V>(new Node<K, V>(key, value), "set", state);
         synchronized (taskQueue) {
-            id = taskQueue.size();
             taskQueue.add(task);
             taskQueue.notifyAll();
         }
@@ -73,15 +70,13 @@ public class MemoryDatabase<K extends Comparable<K>, V> implements MemoryDBTrans
                 }
             }
             if (state.compareTo(MemoryDatabaseStates.NORMAL) == 0)
-                resultQueue.remove(id);
+                resultQueue.clear();
         }
     }
 
     public void remove(K key) {
-        int id = -1;
         Task<K, V> task = new Task<K, V>(new Node<K, V>(key, null), "remove", state);
         synchronized (taskQueue) {
-            id = taskQueue.size();
             taskQueue.add(task);
             taskQueue.notifyAll();
         }
@@ -94,11 +89,16 @@ public class MemoryDatabase<K extends Comparable<K>, V> implements MemoryDBTrans
                 }
             }
             if (state.compareTo(MemoryDatabaseStates.NORMAL) == 0)
-                resultQueue.remove(id);
+                resultQueue.clear();
         }
     }
 
     public void multi() {
+        if (!taskQueue.isEmpty() && taskQueue.get(0).getOp().equalsIgnoreCase("multi")) {
+            System.out.println("Please use set, find, remove, exec or rollback command.");
+            return;
+        }
+        System.out.println("Start transaction...");
         state = MemoryDatabaseStates.TRANSACTION_START;
         Task<K, V> task = new Task<K, V>(new Node<K, V>(null, null), "multi", state);
         synchronized (taskQueue) {
@@ -108,10 +108,22 @@ public class MemoryDatabase<K extends Comparable<K>, V> implements MemoryDBTrans
     }
 
     public void exec() {
+        if (taskQueue.isEmpty() || !taskQueue.get(0).getOp().equalsIgnoreCase("multi")) {
+            System.out.println("Please use multi before exec.");
+            return;
+        }
         state = MemoryDatabaseStates.TRANSACTION_EXECUTE;
         Task<K, V> task = new Task<K, V>(new Node<K, V>(null, null), "exec", state);
+        List<String> taskPrintList = null;
         synchronized (taskQueue) {
+            if (taskQueue.size() == 1 && taskQueue.get(0).getOp().equalsIgnoreCase("multi")) {
+                taskQueue.clear();
+                return;
+            }
+            System.out.println("Start execution...");
             taskQueue.add(task);
+            taskPrintList = taskQueue.stream().filter(t -> !t.getOp().equalsIgnoreCase("multi") && !t.getOp().equalsIgnoreCase("exec"))
+                    .map(Task::toString).collect(Collectors.toList());
             taskQueue.notifyAll();
         }
         synchronized (resultQueue) {
@@ -122,8 +134,9 @@ public class MemoryDatabase<K extends Comparable<K>, V> implements MemoryDBTrans
                     e.printStackTrace();
                 }
             }
+            // print out results after executing transaction
             for (int i = 0; i < resultQueue.size(); i++) {
-                System.out.println("> After exec command, result for task " + i + " is " + resultQueue.get(i));
+                System.out.println("> After exec, result for task " + taskPrintList.get(i) + ": " + resultQueue.get(i));
             }
             //TODO: we can choose to print here
             resultQueue.clear();
@@ -132,6 +145,11 @@ public class MemoryDatabase<K extends Comparable<K>, V> implements MemoryDBTrans
     }
 
     public void rollBack() {
+        if (taskQueue.isEmpty() || !taskQueue.get(0).getOp().equalsIgnoreCase("multi")) {
+            System.out.println("Please use multi before rollback.");
+            return;
+        }
+        System.out.println("Start rollback...");
         state = MemoryDatabaseStates.TRANSACTION_ROLL_BACK;
         Task<K, V> task = new Task<K, V>(new Node<K, V>(null, null), "rollback", state);
         synchronized (taskQueue) {
@@ -156,16 +174,16 @@ public class MemoryDatabase<K extends Comparable<K>, V> implements MemoryDBTrans
         }
 
         public void run() {
-            System.out.println("> Start checking task queue...");
+//            System.out.println("> Start checking task queue...");
             while (true) {
                 synchronized (taskQueue) {
-                    System.out.println("> Size of task queue: " + taskQueue.size());
+//                    System.out.println("> Size of task queue: " + taskQueue.size());
 
                     while (taskQueue.isEmpty() ||
                             taskQueue.get(taskQueue.size() - 1).getState().compareTo(MemoryDatabaseStates.TRANSACTION_START) == 0) {
-                        if (!taskQueue.isEmpty())
-                            System.out.println("> Is the latest task still in a transaction? "
-                                    + (taskQueue.get(0).getState().compareTo(MemoryDatabaseStates.TRANSACTION_START) == 0));
+//                        if (!taskQueue.isEmpty())
+//                            System.out.println("> Is the latest task still in a transaction? "
+//                                    + (taskQueue.get(0).getState().compareTo(MemoryDatabaseStates.TRANSACTION_START) == 0));
                         try {
                             taskQueue.wait();
                         } catch (InterruptedException e) {
@@ -174,16 +192,16 @@ public class MemoryDatabase<K extends Comparable<K>, V> implements MemoryDBTrans
                     }
                     if (!taskQueue.isEmpty() &&
                             taskQueue.get(taskQueue.size() - 1).getState().compareTo(MemoryDatabaseStates.TRANSACTION_EXECUTE) == 0) {
-                        System.out.println("> Start executing task queue...");
+//                        System.out.println("> Start executing task queue...");
                         execute();
                     }
                     else if (!taskQueue.isEmpty() &&
                             taskQueue.get(taskQueue.size() - 1).getState().compareTo(MemoryDatabaseStates.TRANSACTION_ROLL_BACK) == 0) {
-                        System.out.println("> Start roll back all the task in the task queue...");
+//                        System.out.println("> Start roll back all the task in the task queue...");
                     }
                     else if (!taskQueue.isEmpty() &&
                             taskQueue.get(taskQueue.size() - 1).getState().compareTo(MemoryDatabaseStates.NORMAL) == 0){
-                        System.out.println("> Start execute one task...");
+//                        System.out.println("> Start execute one task...");
                         execute();
                     }
                     taskQueue.clear();
@@ -195,7 +213,7 @@ public class MemoryDatabase<K extends Comparable<K>, V> implements MemoryDBTrans
             synchronized (resultQueue) {
                 for (int i = 0; i < taskQueue.size(); i++) {
                     Task<K, V> task = taskQueue.get(i);
-                    System.out.println("> Task " + i + " in taskQueue: " + task);
+//                    System.out.println("> Task " + i + " in taskQueue: " + task);
                     String op = task.getOp();
                     if (op.equalsIgnoreCase("multi")) continue;
                     Enum state = task.getState();

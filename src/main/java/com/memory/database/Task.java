@@ -40,7 +40,7 @@ public class Task<K extends Comparable<K>, V> {
 
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("{ ").append(node).append("/").append(op).append("/").append(state.name()).append(" }");
+        sb.append("Task: ").append(op).append(" ").append(node).append(" ").append(state.name());
         return sb.toString();
     }
 }

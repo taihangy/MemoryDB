@@ -43,8 +43,9 @@ public class Node<K extends Comparable<K>, V> {
 
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("[ ").append(key == null ? "NULL" : key.toString()).append(", ").append(value == null ? "NULL" : value.toString())
-                .append(", ").append(lastAccessed).append(" ]");
+        sb.append("[ ").append(key == null ? "NULL" : key.toString()).append(" ")
+                        .append(value == null ? "NULL" : value.toString())
+                        .append(" ]");
         return sb.toString();
     }
 }

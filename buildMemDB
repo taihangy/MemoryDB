@@ -1,7 +1,7 @@
 rm -rf memdb-1.0-SNAPSHOT
 ./gradlew clean build
 cd build/distributions
-tar -xf memdb-1.0-SNAPSHOT.tar 
-cd memdb-1.0-SNAPSHOT/bin
-chmod +x memDB
-cp -r ../../memdb-1.0-SNAPSHOT ../../../../memdb-1.0-SNAPSHOT
+tar -xf memdb-1.0-SNAPSHOT.tar
+cp -r ./memdb-1.0-SNAPSHOT ../../memdb-1.0-SNAPSHOT
+export PATH=$PATH:/Users/yetaihang/Desktop/Side\ Project/MemoryDB/memdb-1.0-SNAPSHOT/bin
+cd ../../
