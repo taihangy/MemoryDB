@@ -88,6 +88,20 @@ public class LRUMapTest {
         assertEquals(null, map1.head);
     }
 
+    @Test
+    public void testLastAccessedChange() {
+        long lastAccessedTime1 = map1.map.get("testKey1").lastAccessed;
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        // change lastAccessedTime
+        map1.get("testKey1");
+        long lastAccessedTime2 = map1.map.get("testKey1").lastAccessed;
+        assertTrue(lastAccessedTime2 - lastAccessedTime1 > 0);
+    }
+
 
 
 }
