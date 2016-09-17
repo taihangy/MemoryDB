@@ -11,7 +11,7 @@ public class MemoryDB {
     private static MemoryDatabase<String, String> db;
 
     /**
-     * -s key value; -f key; -r key
+     * SET key value; FIND key; REMOVE key
      * @param args
      */
     public static void main(String[] args) {

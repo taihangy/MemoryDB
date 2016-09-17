@@ -42,6 +42,7 @@ public class LRUMap<K extends Comparable<K>, V> {
         node.prev = null;
         head.prev = node;
         head = node;
+        node.setLastAccessed();
     }
 
     protected void set(K key, V value) {

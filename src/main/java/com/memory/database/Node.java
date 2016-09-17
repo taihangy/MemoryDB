@@ -15,6 +15,11 @@ public class Node<K extends Comparable<K>, V> {
         this.lastAccessed = System.currentTimeMillis();
     }
 
+    protected long setLastAccessed() {
+        lastAccessed = System.currentTimeMillis();
+        return lastAccessed;
+    }
+
     public String toString() {
         return "[" + key.toString() + ", " + value.toString() + ", " + lastAccessed + " ]";
     }
