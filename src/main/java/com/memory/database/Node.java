@@ -9,6 +9,27 @@ public class Node<K extends Comparable<K>, V> {
     protected K key;
     protected V value;
     protected long lastAccessed;
+
+    public Node getPrev() {
+        return prev;
+    }
+
+    public Node getNext() {
+        return next;
+    }
+
+    public K getKey() {
+        return key;
+    }
+
+    public V getValue() {
+        return value;
+    }
+
+    public long getLastAccessed() {
+        return lastAccessed;
+    }
+
     protected Node(K key, V value) {
         this.key = key;
         this.value = value;
@@ -21,6 +42,10 @@ public class Node<K extends Comparable<K>, V> {
     }
 
     public String toString() {
-        return "[" + key.toString() + ", " + value.toString() + ", " + lastAccessed + " ]";
+        StringBuilder sb = new StringBuilder();
+        sb.append("[ ").append(key == null ? "NULL" : key.toString()).append(" ")
+                        .append(value == null ? "NULL" : value.toString())
+                        .append(" ]");
+        return sb.toString();
     }
 }

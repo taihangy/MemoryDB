@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98e902f1-02ed-47ce-8e17-c2bfdad08bee" name="Default" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+>>>>>>> 96402e06d24289aee5936e94a154f8fa88163bf3
     </list>
     <ignored path="MemoryDB.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,8 +46,13 @@
       <file leaf-file-name="LRUMap.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/memory/database/LRUMap.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="-918">
               <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+=======
+            <state relative-caret-position="1635">
+              <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+>>>>>>> 96402e06d24289aee5936e94a154f8fa88163bf3
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,11 +60,19 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="370">
               <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+=======
+      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/memory/database/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+>>>>>>> 96402e06d24289aee5936e94a154f8fa88163bf3
               <folding />
             </state>
           </provider>
@@ -64,22 +81,14 @@
       <file leaf-file-name="MemoryDatabase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/memory/database/MemoryDatabase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+            <state relative-caret-position="1876">
+              <caret line="151" column="42" selection-start-line="151" selection-start-column="42" selection-end-line="151" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MemoryDB.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/memory/cli/MemoryDB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
+<<<<<<< HEAD
+=======
+                <element signature="e#5862#5868#0" expanded="true" />
+>>>>>>> 96402e06d24289aee5936e94a154f8fa88163bf3
               </folding>
             </state>
           </provider>
@@ -88,13 +97,37 @@
       <file leaf-file-name="buildMemDB" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/buildMemDB">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="57">
+              <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+=======
+            <state relative-caret-position="90">
+              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+              <folding />
+>>>>>>> 96402e06d24289aee5936e94a154f8fa88163bf3
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Task.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/memory/database/Task.java">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="90">
               <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+=======
+            <state relative-caret-position="450">
+              <caret line="42" column="96" selection-start-line="42" selection-start-column="96" selection-end-line="42" selection-end-column="96" />
+>>>>>>> 96402e06d24289aee5936e94a154f8fa88163bf3
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/memory/database/Node.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -113,6 +146,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+=======
+      <file leaf-file-name="MemoryDatabaseTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/memory/database/MemoryDatabaseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="100" selection-end-column="5" />
+>>>>>>> 96402e06d24289aee5936e94a154f8fa88163bf3
               <folding />
             </state>
           </provider>
@@ -121,28 +161,51 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="288">
               <caret line="16" column="40" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="40" />
+=======
+            <state relative-caret-position="255">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+>>>>>>> 96402e06d24289aee5936e94a154f8fa88163bf3
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <file leaf-file-name="MemoryDatabaseStates.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/memory/database/MemoryDatabaseStates.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+            <state relative-caret-position="150">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="gradle.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gradle.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
               <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+=======
+      <file leaf-file-name="MemoryDB.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/memory/cli/MemoryDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="427">
+              <caret line="66" column="38" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+>>>>>>> 96402e06d24289aee5936e94a154f8fa88163bf3
               <folding />
             </state>
           </provider>
@@ -154,6 +217,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -416,15 +481,29 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/memory/database/CleanUpTimerTask.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/test/java/com/memory/database/MemoryDatabaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/memory/database/LRUMapTest.java" />
+=======
+>>>>>>> 96402e06d24289aee5936e94a154f8fa88163bf3
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/memory/cli/MemoryDBCLI.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/memory/database/LRUMap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/memory/database/MemoryDBOperation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/memory/database/ExecutionThread.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/memory/database/LRUMapTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/memory/database/MemoryDBTransaction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/memory/database/MemoryDatabaseStates.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/memory/database/MemoryDatabaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/memory/database/Task.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/memory/database/Node.java" />
+        <option value="$PROJECT_DIR$/buildMemDB" />
         <option value="$PROJECT_DIR$/src/main/java/com/memory/database/MemoryDatabase.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/memory/cli/MemoryDB.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/buildMemDB" />
         <option value="$PROJECT_DIR$/src/main/java/com/memory/database/LRUMap.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/memory/database/Node.java" />
@@ -438,6 +517,12 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+=======
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+>>>>>>> 96402e06d24289aee5936e94a154f8fa88163bf3
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -446,10 +531,15 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="65" />
     <option name="y" value="24" />
     <option name="width" value="1615" />
     <option name="height" value="962" />
+=======
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+>>>>>>> 96402e06d24289aee5936e94a154f8fa88163bf3
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -476,8 +566,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="PackagesPane" />
       <pane id="Scratches" />
+=======
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+>>>>>>> 96402e06d24289aee5936e94a154f8fa88163bf3
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -586,6 +682,95 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+<<<<<<< HEAD
+=======
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MemDB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MemoryDB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MemDB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MemoryDB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MemDB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MemoryDB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reports" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MemDB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MemoryDB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="distributions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MemDB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MemoryDB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+>>>>>>> 96402e06d24289aee5936e94a154f8fa88163bf3
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -593,6 +778,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Project" />
+<<<<<<< HEAD
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$USER_HOME$/eclipse workspaces/OASolution" />
@@ -601,6 +787,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
     <property name="settings.editor.selected.configurable" value="http.proxy" />
+=======
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.15862069" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../eclipse workspaces/OASolution" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="FullScreen" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+>>>>>>> 96402e06d24289aee5936e94a154f8fa88163bf3
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
@@ -611,34 +805,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LRUMapTest (1)">
-    <configuration default="false" name="LRUMapTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.memory.database.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="MemDB_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.memory.database" />
-      <option name="MAIN_CLASS_NAME" value="com.memory.database.LRUMapTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="LRUMapTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MemoryDatabaseTest">
+    <configuration default="false" name="LRUMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.memory.database.*" />
@@ -678,6 +846,32 @@
       <option name="MAIN_CLASS_NAME" value="com.memory.database.MemoryDatabaseTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MemoryDatabaseTest.testGet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.memory.database.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="MemDB_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.memory.database" />
+      <option name="MAIN_CLASS_NAME" value="com.memory.database.MemoryDatabaseTest" />
+      <option name="METHOD_NAME" value="testGet" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -1086,14 +1280,15 @@
     </configuration>
     <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JUnit.LRUMapTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.LRUMapTest (1)" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MemoryDatabaseTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MemoryDatabaseTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MemoryDatabaseTest.testGet" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.LRUMapTest (1)" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.MemoryDatabaseTest" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MemoryDatabaseTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MemoryDatabaseTest.testGet" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.LRUMapTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.LRUMapTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1129,34 +1324,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LRUMapTest_(1) - 2016.09.14 at 23h 19m 15s.xml">
-      <configuration name="LRUMapTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LRUMapTest_(1) - 2016.09.14 at 23h 24m 18s.xml">
-      <configuration name="LRUMapTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LRUMapTest_(1) - 2016.09.14 at 23h 25m 14s.xml">
-      <configuration name="LRUMapTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LRUMapTest_(1) - 2016.09.14 at 23h 26m 08s.xml">
-      <configuration name="LRUMapTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LRUMapTest_(1) - 2016.09.14 at 23h 28m 38s.xml">
-      <configuration name="LRUMapTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LRUMapTest_(1) - 2016.09.14 at 23h 29m 23s.xml">
-      <configuration name="LRUMapTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LRUMapTest_(1) - 2016.09.14 at 23h 31m 33s.xml">
-      <configuration name="LRUMapTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LRUMapTest_(1) - 2016.09.14 at 23h 31m 47s.xml">
-      <configuration name="LRUMapTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MemoryDatabaseTest - 2016.09.14 at 23h 01m 32s.xml">
+    <history-entry file="MemoryDatabaseTest - 2016.09.17 at 14h 00m 44s.xml">
       <configuration name="MemoryDatabaseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MemoryDatabaseTest - 2016.09.14 at 23h 03m 34s.xml">
+    <history-entry file="MemoryDatabaseTest - 2016.09.17 at 14h 00m 46s.xml">
+      <configuration name="MemoryDatabaseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemoryDatabaseTest - 2016.09.17 at 14h 00m 47s.xml">
+      <configuration name="MemoryDatabaseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemoryDatabaseTest - 2016.09.17 at 14h 00m 49s.xml">
+      <configuration name="MemoryDatabaseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemoryDatabaseTest - 2016.09.17 at 14h 00m 50s.xml">
+      <configuration name="MemoryDatabaseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemoryDatabaseTest - 2016.09.17 at 14h 00m 52s.xml">
+      <configuration name="MemoryDatabaseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemoryDatabaseTest - 2016.09.17 at 14h 04m 30s.xml">
+      <configuration name="MemoryDatabaseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemoryDatabaseTest - 2016.09.17 at 14h 05m 52s.xml">
+      <configuration name="MemoryDatabaseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemoryDatabaseTest - 2016.09.17 at 14h 28m 50s.xml">
+      <configuration name="MemoryDatabaseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemoryDatabaseTest - 2016.09.17 at 14h 54m 39s.xml">
       <configuration name="MemoryDatabaseTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -1173,34 +1368,59 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="65" y="24" width="1615" height="962" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+=======
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30963856" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+>>>>>>> 96402e06d24289aee5936e94a154f8fa88163bf3
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33025405" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20203951" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771084" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31445783" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17811158" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 96402e06d24289aee5936e94a154f8fa88163bf3
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+<<<<<<< HEAD
+=======
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39948782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+>>>>>>> 96402e06d24289aee5936e94a154f8fa88163bf3
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+<<<<<<< HEAD
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39948782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7183099" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+>>>>>>> 96402e06d24289aee5936e94a154f8fa88163bf3
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1220,12 +1440,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/memory/database/MemoryDatabaseTest.java</url>
-          <line>23</line>
+          <line>4</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1236,8 +1456,13 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/memory/database/LRUMap.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="810">
           <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+=======
+        <state relative-caret-position="1635">
+          <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+>>>>>>> 96402e06d24289aee5936e94a154f8fa88163bf3
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1246,18 +1471,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/memory/database/LRUMapTest.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1134">
           <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="false" />
+=======
+        <state relative-caret-position="525">
+          <caret line="45" column="54" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/memory/database/MemoryDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1845">
+          <caret line="124" column="96" selection-start-line="124" selection-start-column="96" selection-end-line="124" selection-end-column="96" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5862#5868#0" expanded="true" />
+>>>>>>> 96402e06d24289aee5936e94a154f8fa88163bf3
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/buildMemDB">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="828">
           <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+=======
+        <state relative-caret-position="75">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+>>>>>>> 96402e06d24289aee5936e94a154f8fa88163bf3
           <folding />
         </state>
       </provider>
@@ -1316,6 +1562,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/memory/database/MemoryDatabaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="666">
           <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding>
@@ -1332,11 +1579,33 @@
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
+=======
+        <state relative-caret-position="1170">
+          <caret line="81" column="0" selection-start-line="81" selection-start-column="2" selection-end-line="100" selection-end-column="7" />
+          <folding />
+>>>>>>> 96402e06d24289aee5936e94a154f8fa88163bf3
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/memory/database/LRUMapTest.java">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/memory/database/MemoryDatabaseStates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/memory/cli/MemoryDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1134">
           <caret line="66" column="30" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="30" />
           <folding>
@@ -1349,48 +1618,176 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+=======
+        <state relative-caret-position="600">
+          <caret line="42" column="48" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
+>>>>>>> 96402e06d24289aee5936e94a154f8fa88163bf3
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/memory/cli/MemoryDB.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="57">
           <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+=======
+        <state relative-caret-position="1635">
+          <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+>>>>>>> 96402e06d24289aee5936e94a154f8fa88163bf3
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="40" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/memory/database/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/buildMemDB">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+        <state relative-caret-position="525">
+          <caret line="45" column="54" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/memory/database/MemoryDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1845">
+          <caret line="124" column="96" selection-start-line="124" selection-start-column="96" selection-end-line="124" selection-end-column="96" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5862#5868#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buildMemDB">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/memory/database/MemoryDatabaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="81" column="0" selection-start-line="81" selection-start-column="2" selection-end-line="100" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/memory/database/MemoryDatabaseStates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/memory/cli/MemoryDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="42" column="48" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
+>>>>>>> 96402e06d24289aee5936e94a154f8fa88163bf3
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/memory/database/CleanUpTimerTask.java" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 96402e06d24289aee5936e94a154f8fa88163bf3
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/buildMemDB">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/memory/MemoryDBOperation.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/memory/database/ExecutionThread.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/memory/database/LRUMapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="723">
+          <caret line="102" column="5" selection-start-line="20" selection-start-column="4" selection-end-line="102" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/memory/database/MemoryDBTransaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/28e0ad201304e4a4abf999ca0570b7cffc352c3c/junit-4.11-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/28e0ad201304e4a4abf999ca0570b7cffc352c3c/junit-4.11-sources.jar!/org/junit/internal/runners/statements/RunBefores.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/28e0ad201304e4a4abf999ca0570b7cffc352c3c/junit-4.11-sources.jar!/org/junit/runners/model/FrameworkMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/reports/tests/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/memory/database/MemoryDatabaseStates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+>>>>>>> 96402e06d24289aee5936e94a154f8fa88163bf3
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/memory/database/LRUMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1635">
+          <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1399,6 +1796,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/memory/database/Node.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="306">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="13" />
           <folding>
@@ -1412,27 +1810,171 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-918">
           <caret line="52" column="26" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+=======
+        <state relative-caret-position="395">
+          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/memory/database/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="42" column="96" selection-start-line="42" selection-start-column="96" selection-end-line="42" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buildMemDB">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/memory/database/MemoryDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1876">
+          <caret line="151" column="42" selection-start-line="151" selection-start-column="42" selection-end-line="151" selection-end-column="42" />
+>>>>>>> 96402e06d24289aee5936e94a154f8fa88163bf3
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#5862#5868#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/gradle.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/memory/database/MemoryDatabaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="100" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/memory/cli/MemoryDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="66" column="38" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
+>>>>>>> 96402e06d24289aee5936e94a154f8fa88163bf3
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="370">
           <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+=======
+        <state relative-caret-position="105">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+>>>>>>> 96402e06d24289aee5936e94a154f8fa88163bf3
           <folding />
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.15862069" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.15862069" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.15862069" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.15862069" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>MemDB_main|MemDB</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: junit:junit:4.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.15862069" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

@@ -10,6 +10,8 @@ import java.util.Scanner;
 public class MemoryDB {
     private static MemoryDatabase<String, String> db;
 
+    private static boolean isTransaction = false;
+
     /**
      * SET key value; FIND key; REMOVE key
      * @param args
@@ -30,36 +32,54 @@ public class MemoryDB {
             System.exit(1);
         }
         db = new MemoryDatabase<String, String>(20, 20, 30);
-        System.out.println("DB created. \nUsage:\n1. set key value: set the key with value\n2. find key: find the value of the key\n" +
-                "3. remove key: remove the value of this key\n4. quit: quit database\n5. print: show database");
+        System.out.println("DB created. ");
+        printUsage();
         System.out.print("> ");
-        for (String op = scan.next(); !op.equalsIgnoreCase("quit"); op = scan.next()) {
-            if (op.equalsIgnoreCase("set")) {
-                String key = scan.next();
-                String value = scan.next();
+        String[] tokens = scan.nextLine().split(" ");
+        for (String op = tokens[0]; !op.equalsIgnoreCase("quit"); tokens = scan.nextLine().split(" "), op = tokens[0]) {
+            if (op.equalsIgnoreCase("set") && tokens.length == 3) {
+                String key = tokens[1];
+                String value = tokens[2];
                 db.set(key, value);
-                System.out.println("After your set, database: " + db);
             }
-            else if (op.equalsIgnoreCase("find")) {
-                String key = scan.next();
-                System.out.println(db.get(key));
-                System.out.println("After your find, database: " + db);
+            else if (op.equalsIgnoreCase("find") && tokens.length == 2) {
+                String key = tokens[1];
+                String value = db.get(key);
+                if (!isTransaction)
+                    System.out.println(value);
             }
-            else if (op.equalsIgnoreCase("remove")) {
-                String key = scan.next();
+            else if (op.equalsIgnoreCase("remove") && tokens.length == 2) {
+                String key = tokens[1];
                 db.remove(key);
-                System.out.println("After your remove, database: " + db);
             }
-            else if (op.equalsIgnoreCase("print")) {
+            else if (op.equalsIgnoreCase("print") && tokens.length == 1) {
                 System.out.println("database: " + db);
             }
+            else if (op.equalsIgnoreCase("multi") && tokens.length == 1) {
+                isTransaction = true;
+                db.multi();
+            }
+            else if (op.equalsIgnoreCase("exec") && tokens.length == 1) {
+                isTransaction = false;
+                db.exec();
+            }
+            else if (op.equalsIgnoreCase("rollback") && tokens.length == 1) {
+                isTransaction = false;
+                db.rollBack();
+            }
             else {
-                System.out.println("Usage:\n1. set key value: set the key with value\n2. find key: find the value of the key\n" +
-                        "3. remove key: remove the value of this key\n4. quit: quit database\n5. print: show database");
+                printUsage();
             }
             System.out.print("> ");
         }
         System.exit(0);
 
+    }
+
+    private static void printUsage() {
+        System.out.println("Usage:\n1. set key value: set the key with value\n2. find key: find the value of the key\n" +
+                "3. remove key: remove the value of this key\n4. multi: start transaction\n5. exec: commit transaction\n" +
+                "6. rollback: not do all the command after multi" +
+                "\n7. quit: quit database\n8. print: show database");
     }
 }
