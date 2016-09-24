@@ -1,12 +1,9 @@
+clear
 rm -rf memdb-1.0-SNAPSHOT
 gradle clean build
 cd build/distributions
 tar -xf memdb-1.0-SNAPSHOT.tar
-<<<<<<< HEAD
-cp -r memdb-1.0-SNAPSHOT ../../memdb-1.0-SNAPSHOT
-export PATH=$PATH:../../memdb-1.0-SNAPSHOT/bin
-=======
-cp -r ./memdb-1.0-SNAPSHOT ../../memdb-1.0-SNAPSHOT
-export PATH=$PATH:/Users/yetaihang/Desktop/Side\ Project/MemoryDB/memdb-1.0-SNAPSHOT/bin
-cd ../../
->>>>>>> 96402e06d24289aee5936e94a154f8fa88163bf3
+cd memdb-1.0-SNAPSHOT/bin
+MEMDB_HOME=`pwd`
+export PATH=$PATH:$MEMDB_HOME
+cd ../../../../
