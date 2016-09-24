@@ -8,6 +8,7 @@ java implementation of memdb
 5. CLI improve to support multi, exec, rollback
 
 Get started:
+
 1. cd /path/to/MemoryDB
 2. source buildMemDB
 3. memdb start
